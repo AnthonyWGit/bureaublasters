@@ -50,13 +50,21 @@ def filtrer_par_consommable(catalogue, code):
     """Retourne une nouvelle liste des utilisateurs et fournisseurs du code, dans l'ordre."""
     list_users_and_provider = []
     for item in catalogue:
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("filtrer_par_consommable est à compléter.")
-
+        if code in item["consommables_utilises"] or code in item["consommables_fournis"]:
+            list_users_and_provider.append(code)
+    return list_users_and_provider
 
 def consommables_sans_offre(catalogue):
     """Retourne les codes utilisés par un produit mais fournis par aucune référence."""
     # À compléter : suis le contrat et les vérifications de cette étape dans le README.
+    set_codes_user = set()
+    set_codes_provider = set()
+    set_code_diff = set()
+    for item in catalogue:
+        set_codes_user.update(item["consommables_utilises"])
+        set_codes_provider.update(item["consommables_fournis"])
+    set_code_diff = set_codes_user - set_codes_provider
+    return set_code_diff
     raise NotImplementedError("consommables_sans_offre est à compléter.")
 
 
