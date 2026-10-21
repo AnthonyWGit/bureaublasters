@@ -411,7 +411,7 @@ CATALOGUE = [
         "nom": "Brume girofle-agrumes",
         "categorie": "recharge",
         "description": "Petite bouteille de 100 ml de liquide aqueux parfumé au clou de girofle et au zeste d’orange, à verser dans les réservoirs vides du Fumigène à ultrason (BB-04) ou des Mini-requins fumigènes (RE-02), appareils éteints. Ouvrir le clapet du fumigène ou le bouchon du mini-requin. Une bouteille permet plusieurs remplissages.",
-        "prix_euros": 6.90,
+        "prix_euros": 6.9,
         "conditionnement": "1 bouteille de 100 ml",
         "consommables_utilises": [],
         "consommables_fournis": [
