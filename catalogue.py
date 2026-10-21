@@ -39,7 +39,7 @@ CATALOGUE = [
         "prix_euros": 489.0,
         "conditionnement": "1 lanceur, 1 sangle d’épaule, 1 pompe",
         "consommables_utilises": [
-            "requin_mousse"
+            "requin-mousse"
         ],
         "consommables_fournis": [],
         "portee_m": 12,
@@ -58,8 +58,8 @@ CATALOGUE = [
             "éclat de rire enregistré au départ du tir",
             "senteur selon le liquide de recharge"
         ],
-        "image" : "images/requin-aretes.jpg",
-        "favori" : False
+        "image": "images/requin-aretes.jpg",
+        "favori": False
     },
     {
         "id": "BB-03",
@@ -90,34 +90,34 @@ CATALOGUE = [
     },
     # À compléter : insérer la fiche BB-04 — Fumigène à ultrason.
     {
-        "id" : "BB-04",
-        "nom" : "Fumigène à ultrason",
-        "categorie" : "accessoire",
-        "description" : "Grenade-jouet fumigène de poche, lumineuse et étanche, à enveloppe en silicone mat amortissant et petit réservoir intégré. Trois exemplaires tiennent dans une main. Pendant 20 secondes, elle diffuse une brume d’eau produite par ultrasons à travers plusieurs trous, chacun accompagné d’une LED rose. Le réservoir se recharge par un clapet à charnière souple en y versant un liquide à base d’eau : Brume neutre (RE-07, sans parfum) ou Brume girofle-agrumes (RE-08, parfumé), vendu séparément en petites bouteilles de 100 ml pour plusieurs remplissages.",
-        "prix_euros" : 29.9,
-        "conditionnement" : "1 grenade de brume",
-        "consommables_utilises" : [
+        "id": "BB-04",
+        "nom": "Fumigène à ultrason",
+        "categorie": "accessoire",
+        "description": "Grenade-jouet fumigène de poche, lumineuse et étanche, à enveloppe en silicone mat amortissant et petit réservoir intégré. Trois exemplaires tiennent dans une main. Pendant 20 secondes, elle diffuse une brume d’eau produite par ultrasons à travers plusieurs trous, chacun accompagné d’une LED rose. Le réservoir se recharge par un clapet à charnière souple en y versant un liquide à base d’eau : Brume neutre (RE-07, sans parfum) ou Brume girofle-agrumes (RE-08, parfumé), vendu séparément en petites bouteilles de 100 ml pour plusieurs remplissages.",
+        "prix_euros": 29.9,
+        "conditionnement": "1 grenade de brume",
+        "consommables_utilises": [
             "brume-neutre",
             "brume-girofle-agrumes"
         ],
-        "consommables fournis" : [],
-        "portee_m" : None, #string vide plutot ? 
-        "cadence_tir_min" : None,
-        "poids_g" : 300,
-        "dimensions_cm" : {
+        "consommables fournis": [],
+        "portee_m": None, #string vide plutot ? 
+        "cadence_tir_min": None,
+        "poids_g": 300,
+        "dimensions_cm": {
             "longeur" : 4,
             "largeur" : 4,
             "hauteur" : 6
         },
-        "indice_protection" : "IP68",
-        "effets" : [
+        "indice_protection": "IP68",
+        "effets": [
             "jets de brume d’eau ultrasonique par plusieurs trous éclairés en rose",
             "pulsations de LED roses",
             "jingle de trois notes",
             "senteur selon le liquide de recharge"
         ],
-        "image" : "images/brume-bonne-humeur.jpg",
-        "favori" : False
+        "image": "images/brume-bonne-humeur.jpg",
+        "favori": False
     },
     {
         "id": "BB-05",
