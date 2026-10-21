@@ -102,7 +102,7 @@ CATALOGUE = [
         ],
         "consommables fournis": [],
         "portee_m": None, #string vide plutot ? 
-        "cadence_tir_min": None,
+        "cadence_tirs_min": None,
         "poids_g": 300,
         "dimensions_cm": {
             "longeur" : 4,
