@@ -84,6 +84,8 @@ def lire_demande(texte):
 
 def calculer_budget(produit, quantite):
     """Retourne le prix de quantite conditionnements, arrondi à deux décimales."""
+    if quantite < 0 :
+        return print("invalide")
     total = produit["prix_euros"] * quantite
     #limiter à deux décimales
     return round(total,2)
