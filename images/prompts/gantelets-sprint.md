@@ -1,0 +1,15 @@
+# BB-03 — Gantelets du Sprint
+
+## Sujet et composition
+
+Dans un bureau d’entreprise créative avec postes de travail et plantes au fond, une collègue adulte d’une cinquantaine d’années, cheveux argentés coupés très court, lunettes à monture fine et chemise bleu marine aux manches retroussées, porte les gantelets sur ses avant-bras. Elle se met en garde de boxeuse joueuse : les deux poings levés au premier plan, légèrement en diagonale, à côté de l’objectif sans viser le spectateur ni une personne. Son visage reste visible entre les deux poings, avec un sourire de défi ravi et un sourcil levé, l’air de lancer un duel de pause café.
+
+Paire de gantelets-jouets lance-disques qui enferment entièrement les mains dans de gros poings mécaniques : poings surdimensionnés, environ deux fois la taille d’un poing humain, plaques de jointures segmentées en mousse EVA graphite souple et arrondie, gros pistons apparents de chaque côté de l’avant-bras, colliers épais au poignet, silhouette de brute adorable. Volumes lourds en apparence mais polymère léger de jouet. Coques ABS satinées violet profond et bleu pétrole, plaques bombées et facettées, rivets captifs, pistons protégés en caoutchouc graphite avec courtes tiges brossées. Sangles graphite de réglage visibles à l’arrière de l’avant-bras. Les deux gantelets sont les versions gauche et droite d’un même modèle.
+
+Sur le dessus de chaque poing, juste derrière les jointures, une fente horizontale fine et large s’ouvre vers l’avant. Un seul disque volant en mousse violette haute densité en sort à moitié, dépassant nettement devant les jointures : galette fine et large d’environ 14 cm de diamètre pour seulement 5 mm d’épaisseur, bord biseauté arrondi ; on voit sa tranche très fine et une large partie de sa face. Rien d’un palet épais. Disque entier et plein, sans trou central, environ 8 cm de diamètre et 2 cm d’épaisseur ; c’est une munition engagée dans un canal, jamais un bouton posé à plat. Courtes LED violettes de part et d’autre de chaque fente. Boucles cyan, flèches bancales et confettis magenta peints à la main sur les plaques, sans lettres.
+
+Énergie de bagarre de pause entre collègues complices, pas de combat : aucun impact, aucun disque en vol, aucun objet cassé. Aucune fumée, aucun arc électrique ni lumière magique.
+
+## Prise de vue commune BureauBlasters
+
+Photographie réaliste de démonstration, carré 1024 × 1024. Une personne adulte tient, porte ou manipule le produit entier au premier plan, fonctions nettes et doigts hors des détails importants ; son visage visible exprime une complicité espiègle, un petit air diabolique mais bienveillant. Bureau d’entreprise créative reconnaissable derrière : postes de travail, plantes, cloisons vitrées et touches colorées. Perspective naturelle 40 à 50 mm, proportions crédibles entre produit et mains, visage lisible, décor adouci. Lumière de fenêtre cinématographique, accents cyan et magenta, matières tangibles. Pas de packshot de studio, humain dessiné, texte lisible, logo, filigrane ajouté ou accessoire copié d’Arcane.
