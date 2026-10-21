@@ -70,10 +70,18 @@ def test_selection_seuil_inclus():
 # Étape 3 : comparer les besoins aux références fournies.
 def test_consommable_sans_fournisseur():
     """catalogue_essai() utilise « liquide » sans fournisseur ; seul ce code est attendu."""
-    
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("test_consommable_sans_fournisseur est à compléter.")
-
+    set_no_provider = set()
+    catalogue = catalogue_essai()
+    fournis = set()
+    for item in catalogue:
+        fournis.update(item["consommables_fournis"])
+    utilises = set()
+    for item in catalogue:
+        utilises.update(item["consommables_utilises"])
+    set_no_provider = utilises - fournis
+    print("orphelins :", set_no_provider)
+    assert set_no_provider == {"liquide"}
+    print("OK")
 
 # Étape 4 : contrôler la conversion et la copie d'une fiche.
 def test_lecture_demande():
