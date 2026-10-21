@@ -51,7 +51,7 @@ def filtrer_par_consommable(catalogue, code):
     list_users_and_provider = []
     for item in catalogue:
         if code in item["consommables_utilises"] or code in item["consommables_fournis"]:
-            list_users_and_provider.append(code)
+            list_users_and_provider.append(item)
     return list_users_and_provider
 
 def consommables_sans_offre(catalogue):
@@ -65,8 +65,6 @@ def consommables_sans_offre(catalogue):
         set_codes_provider.update(item["consommables_fournis"])
     set_code_diff = set_codes_user - set_codes_provider
     return set_code_diff
-    raise NotImplementedError("consommables_sans_offre est à compléter.")
-
 
 # Étape 4 : transformer chaque demande en une ligne de commande indépendante.
 def trouver_produit(catalogue, identifiant):
