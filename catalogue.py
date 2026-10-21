@@ -8,7 +8,7 @@ CATALOGUE = [
         "nom": "Sulfateuse à Relances",
         "categorie": "lanceur",
         "description": "Sulfateuse compacte à fléchettes en mousse : barillet rotatif à six canons, chargeur de 12 fléchettes. Une main suffit. Munitions compatibles : Fléchettes de rappel (RE-01).",
-        "prix_euros": 39.50,
+        "prix_euros": 39.5,
         "conditionnement": "1 blaster",
         "consommables_utilises": [
             "flechette-mousse"
@@ -36,19 +36,19 @@ CATALOGUE = [
         "nom" : "Requin Arêtes",
         "categorie" : "lanceur",
         "description" : "Lance-requins à porter à deux mains. Gueule dentée, yeux lumineux, graffitis roses et bleus. Propulse par air comprimé des mini-requins en mousse qui zigzaguent et diffusent par plusieurs trous une brume d’eau produite par ultrasons, éclairée en rose et bleu par des LED voisines. Un éclat de rire enregistré accompagne chaque tir. Le modèle phare de la gamme. Munitions compatibles : Mini-requins fumigènes (RE-02). Le liquide se verse dans les mini-requins, jamais dans le lanceur ; leur brume est sans parfum avec Brume neutre (RE-07) ou parfumée avec Brume girofle-agrumes (RE-08).",
-        "prix_euros" : 489,
+        "prix_euros" : 489.0,
         "conditionnement" : "1 lanceur, 1 sangle d’épaule, 1 pompe",
         "consommables_utilises" : [
             "requin-mousse"
         ],
         "consommables_fournis" : [],
         "portee_m" : 12,
-        "cadence_tir" : 4,
-        "pois_g" : 4800,
+        "cadence_tirs_min" : 4,
+        "poids_g" : 4800,
         "dimensions_cm" : {
-            "longueur": 32,
-            "largeur": 8,
-            "hauteur": 18
+            "longueur": 118,
+            "largeur": 30,
+            "hauteur": 42
         },
         "indice_protection" : None,
         "effets" : [
@@ -94,7 +94,7 @@ CATALOGUE = [
         "nom" : "Fumigène à ultrason",
         "categorie" : "accessoire",
         "description" : "Grenade-jouet fumigène de poche, lumineuse et étanche, à enveloppe en silicone mat amortissant et petit réservoir intégré. Trois exemplaires tiennent dans une main. Pendant 20 secondes, elle diffuse une brume d’eau produite par ultrasons à travers plusieurs trous, chacun accompagné d’une LED rose. Le réservoir se recharge par un clapet à charnière souple en y versant un liquide à base d’eau : Brume neutre (RE-07, sans parfum) ou Brume girofle-agrumes (RE-08, parfumé), vendu séparément en petites bouteilles de 100 ml pour plusieurs remplissages.",
-        "prix_euros" : 29.90,
+        "prix_euros" : 29.9,
         "conditionnement" : "1 grenade de brume",
         "consommables_utilises" : [
             "brume-neutre",
@@ -305,7 +305,7 @@ CATALOGUE = [
         "indice_protection": None,
         "effets": [],
         "image": "images/disques-livraison.jpg",
-        "favori": "False"
+        "favori": False
     },
     {
         "id": "RE-04",
@@ -364,7 +364,7 @@ CATALOGUE = [
         "nom": "Balles de décompression",
         "categorie": "munition",
         "description": "Balles en mousse pour l’Orbe de Décompression.",
-        "prix_euros": 890,
+        "prix_euros": 8.90,
         "conditionnement": "lot de 10 balles",
         "consommables_utilises": [],
         "consommables_fournis": [
