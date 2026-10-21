@@ -32,26 +32,26 @@ CATALOGUE = [
     },
         # À compléter : insérer la fiche BB-02 — Requin Arêtes.
     {
-        "id": "BB-02",
-        "nom" : "Requin Arêtes",
-        "categorie" : "lanceur",
-        "description" : "Lance-requins à porter à deux mains. Gueule dentée, yeux lumineux, graffitis roses et bleus. Propulse par air comprimé des mini-requins en mousse qui zigzaguent et diffusent par plusieurs trous une brume d’eau produite par ultrasons, éclairée en rose et bleu par des LED voisines. Un éclat de rire enregistré accompagne chaque tir. Le modèle phare de la gamme. Munitions compatibles : Mini-requins fumigènes (RE-02). Le liquide se verse dans les mini-requins, jamais dans le lanceur ; leur brume est sans parfum avec Brume neutre (RE-07) ou parfumée avec Brume girofle-agrumes (RE-08).",
-        "prix_euros" : 489.0,
+        "id":"BB-02",
+        "nom":"Requin Arêtes",
+        "categorie":"lanceur",
+        "description":"Lance-requins à porter à deux mains. Gueule dentée, yeux lumineux, graffitis roses et bleus. Propulse par air comprimé des mini-requins en mousse qui zigzaguent et diffusent par plusieurs trous une brume d’eau produite par ultrasons, éclairée en rose et bleu par des LED voisines. Un éclat de rire enregistré accompagne chaque tir. Le modèle phare de la gamme. Munitions compatibles : Mini-requins fumigènes (RE-02). Le liquide se verse dans les mini-requins, jamais dans le lanceur ; leur brume est sans parfum avec Brume neutre (RE-07) ou parfumée avec Brume girofle-agrumes (RE-08).",
+        "prix_euros":489.0,
         "conditionnement" : "1 lanceur, 1 sangle d’épaule, 1 pompe",
-        "consommables_utilises" : [
+        "consommables_utilises":[
             "requin-mousse"
         ],
-        "consommables_fournis" : [],
-        "portee_m" : 12,
-        "cadence_tirs_min" : 4,
-        "poids_g" : 4800,
-        "dimensions_cm" : {
+        "consommables_fournis":[],
+        "portee_m": 12,
+        "cadence_tirs_min": 4,
+        "poids_g": 4800,
+        "dimensions_cm": {
             "longueur": 118,
             "largeur": 30,
             "hauteur": 42
         },
-        "indice_protection" : None,
-        "effets" : [
+        "indice_protection": None,
+        "effets": [
             "trajectoire en zigzag des mini-requins",
             "traînée de brume d’eau ultrasonique éclairée en rose et bleu",
             "yeux et gueule à LED roses et bleues",
