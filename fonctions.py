@@ -48,8 +48,8 @@ def consommables_disponibles(catalogue):
 
 def filtrer_par_consommable(catalogue, code):
     """Retourne une nouvelle liste des utilisateurs et fournisseurs du code, dans l'ordre."""
-    set_users_and_provider = []
-        for item in catalogue:
+    list_users_and_provider = []
+    for item in catalogue:
     # À compléter : suis le contrat et les vérifications de cette étape dans le README.
     raise NotImplementedError("filtrer_par_consommable est à compléter.")
 
