@@ -92,8 +92,10 @@ def calculer_budget(produit, quantite):
 
 def preparer_ligne(produit, quantite):
     """Retourne une copie superficielle de la fiche avec quantite et sous_total_euros."""
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("preparer_ligne est à compléter.")
+    produit_copy = produit.copy()
+    produit_copy["quantite"] = quantite
+    produit_copy["sous_total_euros"] = calculer_budget(produit, quantite)
+    return produit_copy
 
 
 def preparer_commande(catalogue, demandes):
