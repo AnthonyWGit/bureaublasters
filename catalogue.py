@@ -101,8 +101,8 @@ CATALOGUE = [
             "brume girofle-argrumes"
         ],
         "consommables fournis" : [],
-        "portee_m" : "non applicable", #string vide plutot ? 
-        "cadence_tir_min" : "non applicable",
+        "portee_m" : None, #string vide plutot ? 
+        "cadence_tir_min" : None,
         "poids_g" : 300,
         "dimensions_cm" : {
             "longeur" : 4,
