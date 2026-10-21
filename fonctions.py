@@ -5,6 +5,17 @@
 def rechercher_produits(catalogue, recherche):
     """Retourne les fiches dont le nom ou la description contient la recherche nettoyée."""
     # À compléter : suis le contrat et les vérifications de cette étape dans le README.
+    recherche = recherche.strip().lower()
+    resultats = []
+    if not recherche:
+        return []
+    for item in catalogue:
+        nom = item["nom"].lower()
+        description = item["description"].lower()
+        if recherche in nom or recherche in description:
+            resultats.append(item)
+    return resultats
+        
     raise NotImplementedError("rechercher_produits est à compléter.")
 
 
