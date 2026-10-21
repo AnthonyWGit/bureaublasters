@@ -100,14 +100,14 @@ CATALOGUE = [
             "brume-neutre",
             "brume-girofle-agrumes"
         ],
-        "consommables fournis": [],
+        "consommables_fournis": [],
         "portee_m": None, #string vide plutot ? 
         "cadence_tirs_min": None,
         "poids_g": 300,
         "dimensions_cm": {
-            "longeur" : 4,
-            "largeur" : 4,
-            "hauteur" : 6
+            "longeur": 4,
+            "largeur": 4,
+            "hauteur": 6
         },
         "indice_protection": "IP68",
         "effets": [
