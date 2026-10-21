@@ -38,12 +38,18 @@ def selectionner_equipements(catalogue, prix_max, poids_max_g, longueur_max_cm):
 # Étape 3 : réunir les codes, filtrer les fiches et repérer une offre manquante.
 def consommables_disponibles(catalogue):
     """Retourne les codes utilisés ou fournis, sans doublons ni mutation."""
+    set_codes = set()
+    for item in catalogue:
+        set_codes.update(item["consommables_utilises"])
+        set_codes.update(item["consommables_fournis"])
+    return set_codes
     # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("consommables_disponibles est à compléter.")
 
 
 def filtrer_par_consommable(catalogue, code):
     """Retourne une nouvelle liste des utilisateurs et fournisseurs du code, dans l'ordre."""
+    set_users_and_provider = []
+        for item in catalogue:
     # À compléter : suis le contrat et les vérifications de cette étape dans le README.
     raise NotImplementedError("filtrer_par_consommable est à compléter.")
 
