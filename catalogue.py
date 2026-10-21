@@ -427,7 +427,7 @@ CATALOGUE = [
         },
         "indice_protection": None,
         "effets": [
-            "brume d'eau",
+            "brume d’eau",
             "senteur girofle et orange"
         ],
         "image": "images/brume-girofle-agrumes.jpg",
