@@ -77,8 +77,11 @@ def trouver_produit(catalogue, identifiant):
 
 def lire_demande(texte):
     """Retourne un dictionnaire id/quantite depuis une ligne « identifiant ; entier »."""
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("lire_demande est à compléter.")
+    pieces = texte.split(";")
+    id = pieces.strip().upper()
+    qt = int(pieces[id].strip())
+    return {"identifiant" : id, "quantité" : qt}
+
 
 
 def calculer_budget(produit, quantite):
