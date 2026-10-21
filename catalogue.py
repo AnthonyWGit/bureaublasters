@@ -39,7 +39,7 @@ CATALOGUE = [
         "prix_euros":489.0,
         "conditionnement" : "1 lanceur, 1 sangle d’épaule, 1 pompe",
         "consommables_utilises":[
-            "requin-mousse"
+            "requin_mousse"
         ],
         "consommables_fournis":[],
         "portee_m": 12,
@@ -263,7 +263,7 @@ CATALOGUE = [
             "brume-girofle-agrumes"
         ],
         "consommables_fournis": [
-            "requin_mousse"
+            "requin-mousse"
         ],
         "portee_m": None,
         "cadence_tirs_min": None,
