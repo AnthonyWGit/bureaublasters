@@ -98,7 +98,7 @@ CATALOGUE = [
         "conditionnement" : "1 grenade de brume",
         "consommables_utilises" : [
             "brume-neutre",
-            "brume girofle-argrumes"
+            "brume-girofle-argrumes"
         ],
         "consommables fournis" : [],
         "portee_m" : None, #string vide plutot ? 
