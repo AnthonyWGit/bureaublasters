@@ -425,7 +425,7 @@ CATALOGUE = [
         "cadence_tirs_min": None,
         "poids_g": 130,
         "dimensions_cm": {
-            "longeur": 4,
+            "longueur": 4,
             "largeur": 4,
             "hauteur": 12
         },
