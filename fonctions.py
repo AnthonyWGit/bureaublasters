@@ -82,13 +82,11 @@ def lire_demande(texte):
     qt = int(pieces[id].strip())
     return {"identifiant" : id, "quantité" : qt}
 
-
-
 def calculer_budget(produit, quantite):
-    """Retourne le prix de quantite conditionnements, entière positive ou nulle, arrondi à deux décimales."""
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("calculer_budget est à compléter.")
-
+    """Retourne le prix de quantite conditionnements, arrondi à deux décimales."""
+    total = produit["prix_euros"] * quantite
+    #limiter à deux décimales
+    return round(total,2)
 
 def preparer_ligne(produit, quantite):
     """Retourne une copie superficielle de la fiche avec quantite et sous_total_euros."""
