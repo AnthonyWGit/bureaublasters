@@ -69,8 +69,10 @@ def consommables_sans_offre(catalogue):
 # Étape 4 : transformer chaque demande en une ligne de commande indépendante.
 def trouver_produit(catalogue, identifiant):
     """Retourne la fiche d'identifiant exact, ou None si elle est absente."""
-    # À compléter : suis le contrat et les vérifications de cette étape dans le README.
-    raise NotImplementedError("trouver_produit est à compléter.")
+    for item in catalogue:
+        if item["id"] == identifiant:
+            return item
+    return None
 
 
 def lire_demande(texte):
