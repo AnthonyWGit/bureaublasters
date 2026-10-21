@@ -1,7 +1,6 @@
 """Catalogue des produits BureauBlasters."""
 
 # Étape 1 : relire les données ; catalogue_source.txt contient les trois fiches à migrer.
-# À compléter : corriger les fiches existantes et insérer les trois fiches manquantes.
 CATALOGUE = [
     {
         "id": "BB-01",
@@ -30,7 +29,6 @@ CATALOGUE = [
         "image": "images/sulfateuse-relances.jpg",
         "favori": False
     },
-        # À compléter : insérer la fiche BB-02 — Requin Arêtes.
     {
         "id": "BB-02",
         "nom": "Requin Arêtes",
@@ -88,7 +86,6 @@ CATALOGUE = [
         "image": "images/gantelets-sprint.jpg",
         "favori": False
     },
-    # À compléter : insérer la fiche BB-04 — Fumigène à ultrason.
     {
         "id": "BB-04",
         "nom": "Fumigène à ultrason",
@@ -101,7 +98,7 @@ CATALOGUE = [
             "brume-girofle-agrumes"
         ],
         "consommables_fournis": [],
-        "portee_m": None, #string vide plutot ? 
+        "portee_m": None,
         "cadence_tirs_min": None,
         "poids_g": 300,
         "dimensions_cm": {
@@ -364,7 +361,7 @@ CATALOGUE = [
         "nom": "Balles de décompression",
         "categorie": "munition",
         "description": "Balles en mousse pour l’Orbe de Décompression.",
-        "prix_euros": 8.90,
+        "prix_euros": 8.9,
         "conditionnement": "lot de 10 balles",
         "consommables_utilises": [],
         "consommables_fournis": [
@@ -409,7 +406,6 @@ CATALOGUE = [
         "image": "images/brume-neutre.jpg",
         "favori": False
     },
-    # À compléter : insérer la fiche RE-08 — Brume girofle-agrumes.
     {
         "id": "RE-08",
         "nom": "Brume girofle-agrumes",
